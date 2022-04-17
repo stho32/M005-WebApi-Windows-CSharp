@@ -1,6 +1,14 @@
-# DotNet 6 app repository template
+# "prov" Provisioning infrastructure and development environments
 
 The project is based on these [Requirements](Documentation/requirements.md) and is considered https://github.com/stho32/Training .
+
+## What is this?
+
+When developing software in a team you will need an application that helps you with the setup of infrastructure. 
+
+You will need production machines, test environments, staging systems, development machines and so on. 
+
+You will need to provision these. This is where M005 "prov" comes into play.
 
 ## Badges
 
@@ -13,9 +21,5 @@ The project is based on these [Requirements](Documentation/requirements.md) and 
     - [ ] Security rating
     - [ ] Reliability rating
 
-## What is this?
-
-- [ ] add documentation about the usage here
-- [ ] put a few screenshots in between
 
 
