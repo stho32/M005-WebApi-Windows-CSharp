@@ -1,0 +1,23 @@
+{
+    "name" : "Development machine with Chrome installed",
+    "hostdescriptions" : [
+        {
+            "name" : "main",
+            "description" : "The machine on which Chrome should be installed",
+            "tasks" : [
+                {
+                    "name" :"Install chocolatey",
+                    "asAdmin" : "true",
+                    "shell" : "powershell",
+                    "cmd" : "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))"
+                }, 
+                {
+                    "name" :"Install Chrome using chocolatey",
+                    "asAdmin" : "true",
+                    "shell" : "powershell",
+                    "cmd" : "choco install googlechrome -y"
+                }
+            ]
+        }
+    ]
+}
