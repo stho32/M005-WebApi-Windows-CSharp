@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provisioning.BL.Tests", "Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provisioning.Infrastructure", "Provisioning.Infrastructure\Provisioning.Infrastructure.csproj", "{1CEA17C1-71CC-48F0-830B-72C7A951BA19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provisioning.Infrastructure.IntegrationTests", "Provisioning.Infrastructure.IntegrationTests\Provisioning.Infrastructure.IntegrationTests.csproj", "{BCA1E612-C498-4C8C-BF5E-69B9B6097241}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{1CEA17C1-71CC-48F0-830B-72C7A951BA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CEA17C1-71CC-48F0-830B-72C7A951BA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CEA17C1-71CC-48F0-830B-72C7A951BA19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA1E612-C498-4C8C-BF5E-69B9B6097241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA1E612-C498-4C8C-BF5E-69B9B6097241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA1E612-C498-4C8C-BF5E-69B9B6097241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA1E612-C498-4C8C-BF5E-69B9B6097241}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
