@@ -1,9 +1,13 @@
-﻿using Provisioning.Interfaces.RecipeStructure;
+﻿using Provisioning.Interfaces.Recipes.List;
+using Provisioning.Interfaces.RecipeStructure;
 
 namespace Provisioning.Interfaces;
 public interface IRecipeRepository
 {
-    Recipe[] GetList();
+    Task<RecipeSummary[]?> GetList();
+    Task<Recipe> GetByFilePath(string filePath);
 }
+
+
 
 
