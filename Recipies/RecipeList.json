@@ -1,0 +1,4 @@
+[
+    { "name" : "Chrome", "description" : "A machine with chrome", "filepath": "Chrome.json" },
+    { "name" : "Firefox", "description" : "A machine with firefox", "filepath": "Firefox.json" }
+]

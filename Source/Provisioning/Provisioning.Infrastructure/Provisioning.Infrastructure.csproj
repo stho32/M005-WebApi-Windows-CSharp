@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Provisioning.Interfaces\Provisioning.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
